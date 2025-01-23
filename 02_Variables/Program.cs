@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -118,9 +119,73 @@ namespace _02_Variables
 
             #endregion
 
-            #region
+            #region Klavyeden Tam sayı Girişleri Ve Dönüşümler
+
+            //int shoesPrice, computerPrice, chairPrice, tvPrice;
+
+            //shoesPrice = 1000;
+            //computerPrice = 20000;
+            //chairPrice = 5000;
+            //tvPrice = 12000;
+
+            //int shoesCount, computerCount, chairCount, tvCount;
+
+            //Console.Write(" Lütfen kaç adet ayakkabı aldığınızı giriniz : ");
+            //shoesCount = Convert.ToInt32(Console.ReadLine());
+
+            //Console.Write(" Lütfen kaç adet bilgisayar aldığınızı giriniz : ");
+            //computerCount = Convert.ToInt32(Console.ReadLine());
+
+            //Console.Write(" Lütfen kaç adet sandalye aldığınızı giriniz : ");
+            //chairCount = Convert.ToInt32(Console.ReadLine());
+
+            //Console.Write(" Lütfen kaç adet televizyon aldığınızı giriniz : ");
+            //tvCount = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine();
+
+
+            //int totalPrice = (shoesPrice * shoesCount) + (computerPrice * computerCount) + (chairPrice * chairCount) + (tvPrice * tvCount);
+
+            //Console.WriteLine("Toplam Tutar : " + totalPrice + " TL");
+
 
             #endregion
+
+            #region Klavyeden Ondalıklı Sayı İşlemleri
+
+            //double exam1, exam2, exam3, result;
+
+            //Console.Write("Lütfen 1. Sınav Notunuzu Giriniz : ");
+            //exam1 = Convert.ToDouble(Console.ReadLine());
+
+            //Console.Write("Lütfen 2. Sınav Notunuzu Giriniz : ");
+            //exam2 = Convert.ToDouble(Console.ReadLine());
+
+            //Console.Write("Lütfen 3. Sınav Notunuzu Giriniz : ");
+            //exam3 = Convert.ToDouble(Console.ReadLine());
+
+            //result = (exam1 + exam2 + exam3) / 3;
+
+            //Console.WriteLine();
+            //Console.Write("Sınav Ortalamanız : " + result);
+
+
+            #endregion
+
+            #region Klavyeden Karakter Girişleri
+
+            //char gander;
+            //Console.Write("Lütfen Cinsiyetinizi Giriniz (E/K) : ");
+            //gander = Convert.ToChar(Console.ReadLine());
+
+            //Console.Write("Seçtiğiniz Cinsiyet : " + gander);
+
+
+
+            #endregion
+
+
             Console.Read(); 
         }
     }
