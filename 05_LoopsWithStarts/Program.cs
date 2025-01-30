@@ -21,7 +21,6 @@ namespace _05_LoopsWithStarts
 
             #endregion
 
-
             #region Yan yana 10 tane yıldız oluşturma
 
             //for (int i = 1; i <= 10; i++)
@@ -32,7 +31,6 @@ namespace _05_LoopsWithStarts
             //}
 
             #endregion
-
 
             #region Alt alta 10 tane yıldız oluşturma her satırda 10 tane yıldız olsun
 
