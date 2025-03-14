@@ -117,7 +117,7 @@ namespace _04_Loops
 
             //int i = 1;
 
-            //while (i <= 10)
+            //while (i <= 10) 
             //{
 
             //    if (i % 3 == 0)
