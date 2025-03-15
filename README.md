@@ -4,7 +4,7 @@
 
 ## 💻 Proje 1: Merhaba Dünya
 
-C# programlamaya giriş yaptık. Bu dersin amacı, temel C# yapıları hakkında bilgi sahibi olmamı sağladı.
+C# programlamaya giriş yaptık. Bu dersin , temel C# yapıları hakkında bilgi sahibi olmamı sağladı.
 
 ---
 
