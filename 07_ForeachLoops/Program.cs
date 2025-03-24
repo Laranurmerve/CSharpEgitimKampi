@@ -77,61 +77,61 @@ namespace _07_ForeachLoops
             #region Örnek Sınav Uygulaması
 
 
-            Console.WriteLine("************ C# Eğitim Kampı Sınav Uygulaması **********");
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
+            //Console.WriteLine("************ C# Eğitim Kampı Sınav Uygulaması **********");
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine();
 
 
-            //sınıftaki öğrenci sayısını kullanıcıdan aldık
-            Console.WriteLine("------------------------------");
-            Console.Write("Sınıfınızda Kaç Öğrenci Var : ");
-            int studentCount = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("------------------------------");
+            ////sınıftaki öğrenci sayısını kullanıcıdan aldık
+            //Console.WriteLine("------------------------------");
+            //Console.Write("Sınıfınızda Kaç Öğrenci Var : ");
+            //int studentCount = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("------------------------------");
 
 
-            string[] studentNames = new string[studentCount];
-            double[] studentExamAvg = new double[studentCount];
+            //string[] studentNames = new string[studentCount];
+            //double[] studentExamAvg = new double[studentCount];
 
-            for (int i = 0; i < studentCount; i++)
-            {
+            //for (int i = 0; i < studentCount; i++)
+            //{
 
-                Console.Write($"{i + 1} . öğrencinin ismini giriniz : ");
-                studentNames[i] = Console.ReadLine();
+            //    Console.Write($"{i + 1} . öğrencinin ismini giriniz : ");
+            //    studentNames[i] = Console.ReadLine();
 
-                //her öğrencinin 3 sınav notu girişi
+            //    //her öğrencinin 3 sınav notu girişi
 
-                double totalExamResult = 0;
+            //    double totalExamResult = 0;
 
-                for (int j = 0; j < 3; j++)
-                {
-                    Console.Write($"{studentNames[i]}  isimli öğrencinin {j + 1}. sınav notunu giriniz : ");
-                    double value = Convert.ToDouble(Console.ReadLine());
-                    totalExamResult += value; 
+            //    for (int j = 0; j < 3; j++)
+            //    {
+            //        Console.Write($"{studentNames[i]}  isimli öğrencinin {j + 1}. sınav notunu giriniz : ");
+            //        double value = Convert.ToDouble(Console.ReadLine());
+            //        totalExamResult += value; 
 
-                }
-                studentExamAvg[i] = totalExamResult / 3;
-                Console.WriteLine();
-
-
-            }
+            //    }
+            //    studentExamAvg[i] = totalExamResult / 3;
+            //    Console.WriteLine();
 
 
-            for (int i = 0; i < studentCount; i++)
-            {
-                Console.WriteLine("------------------------------");
-                Console.WriteLine($"{studentNames[i]} isimli öğrencinin sınav not ortalaması : {studentExamAvg[i]}");
+            //}
 
-                if (studentExamAvg[i] >= 50)
-                {
-                    Console.WriteLine("Öğrenci sınıfı geçti");
-                }
-                else
-                {
-                    Console.WriteLine("Öğrenci sınıfta kaldı");
-                }
-                Console.WriteLine("------------------------------");
+
+            //for (int i = 0; i < studentCount; i++)
+            //{
+            //    Console.WriteLine("------------------------------");
+            //    Console.WriteLine($"{studentNames[i]} isimli öğrencinin sınav not ortalaması : {studentExamAvg[i]}");
+
+            //    if (studentExamAvg[i] >= 50)
+            //    {
+            //        Console.WriteLine("Öğrenci sınıfı geçti");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Öğrenci sınıfta kaldı");
+            //    }
+            //    Console.WriteLine("------------------------------");
 
             }
 
